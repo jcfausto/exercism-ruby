@@ -1,9 +1,9 @@
 class Gigasecond
-	VERSION = 1
+	VERSION = 2
 
-	BILLION_SECOND = 10**9
+	GIGASECOND = 10**9
 
 	def self.from(time) 
-		time + BILLION_SECOND
+		time + GIGASECOND
 	end
 end
